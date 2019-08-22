@@ -69,7 +69,7 @@ def missing_teddy():
     	os.mkdir('data/raw/n04399382') 
 
 
-def main()
+def main():
     if not os.path.exists('data/raw'):
         os.mkdir('data/raw')
     

@@ -8,10 +8,10 @@ import objects
 
 def create_db():
     lists = [
-        ['urls/fall11.txt', 'fall11'],
-        ['urls/winter11.txt', 'winter11'],
-        ['urls/spring10.txt', 'spring10'],
-        ['urls/fall09.txt', 'fall09'],
+        ['data/urls/fall11.txt', 'fall11'],
+        ['data/urls/winter11.txt', 'winter11'],
+        ['data/urls/spring10.txt', 'spring10'],
+        ['data/urls/fall09.txt', 'fall09'],
     ]
     target = list(objects.objects.keys())
         

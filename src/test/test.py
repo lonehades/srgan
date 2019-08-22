@@ -3,6 +3,8 @@ import scipy.misc
 import cv2
 import dlib
 import tensorflow as tf
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import sys
 sys.path.append('../')
