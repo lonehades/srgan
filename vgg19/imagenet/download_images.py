@@ -6,6 +6,7 @@ import re
 import threading
 import time
 import sqlite3
+import datetime
 
 def download(*h):
     def add_error(id_):
@@ -45,7 +46,10 @@ def download(*h):
                     add_error(id_)
                     continue
             add_download(id_)
-            print(url)
+#            print(url)
+            s = datetime.datetime.now()
+            print(s)
+            print(path)
         else:
             print('ERROR')
             add_error(id_)
